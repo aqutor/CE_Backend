@@ -7,7 +7,13 @@ Calligraphy Evaluation Backend Service, aka CE_Backend, is the API and content m
 - Server errors when handling invalid inputs from client.
 
 ### Main Structure
-Web service framework: [Django](https://github.com/django/django)
+**Web service framework**: [Django](https://github.com/django/django)
+
+**Database**: SQLite
+```bash
+Propagate changes made to the models (adding a field, deleting a model, etc.) into the database schema.
+[python path] manage.py makemigrations
+```
 
 ### Features
 - Using REST API to provide interactive features.
