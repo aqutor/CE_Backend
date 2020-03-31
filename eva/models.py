@@ -5,7 +5,6 @@ import datetime
 import uuid
 
 
-# Create your models here.
 class Work(models.Model):
     """Model representing a book of Work"""
     workName = models.CharField(max_length=30, null=False)

@@ -18,14 +18,23 @@ from django.urls import path
 from django.urls import include
 from django.conf.urls.static import static
 from django.conf import settings
-
+from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('eva.urls')),
 ]
 
+# Add URL maps to redirect the base URL to API application
+# Clear browser cache if this configuration won't work
+urlpatterns += [
+    path('', RedirectView.as_view(url='api/', permanent=True)),
+]
+
+# Set static file path
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# Set admin site information
 admin.site.site_header = "Calligraphy Evaluation Content Administration"
 admin.site.site_title = "Calligraphy Evaluation Content Administration"
 admin.site.index_title = "Calligraphy Evaluation Content Administration"
