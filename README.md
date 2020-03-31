@@ -13,9 +13,6 @@ Web service framework: [Django](https://github.com/django/django)
 - Using REST API to provide interactive features.
 - User-friendly overall model sets management application.
 
-### Timeline
-- 31 Mar 2020: Initial update.
-
 
 
 ## Requirements
@@ -25,9 +22,9 @@ Python >= 3.7
 
 **All dependencies should be pre-installed in running environment.**
 
-A highly version of the package will still work in thoery, but it's not been tests.
+A highly version of the package will still work in theory, but it's not been tests.
 
-| Package                | Reconmment Version |
+| Package                | Recommend Version |
 | ---------------------- | ------------------ |
 | Django                 | 3.0.3              |
 | django-admin           | 2.0.0              |
@@ -57,19 +54,19 @@ $ python manage.py runserver 8000
 The project is comprised of the following apps.
 
 ### Evaluation API
-Endpoint path: `/api`
+**Endpoint path**: `/api`
 
-Config:
+**Config**:
 - Serializers: `/eva/serializers.py`
 - Views (ex. Standard data sets): `/eva/views`
 - Standard data sets: `/eva/view_data.py` 
 
 ### Content Management Portal
-Endpoint path: `/admin`
+**Endpoint path**: `/admin`
 
-Config path: `/eva/admin.py`
+**Config**: `/eva/admin.py`
 
-Documents: [The Django admin site](https://docs.djangoproject.com/en/3.0/ref/contrib/admin/)
+**Documents**: [The Django admin site](https://docs.djangoproject.com/en/3.0/ref/contrib/admin/)
 
 
 
