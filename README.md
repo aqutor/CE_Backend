@@ -64,7 +64,7 @@ The project is comprised of the following apps.
 
 **Config**:
 - Serializers: `/eva/serializers.py`
-- Views (ex. Standard data sets): `/eva/views`
+- Views (ex. Standard data sets): `/eva/views.py`
 - Standard data sets: `/eva/view_data.py` 
 
 ### Content Management Portal
