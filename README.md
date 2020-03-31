@@ -50,25 +50,33 @@ Windows
 $ python manage.py runserver 8000
 ```
 
-### Applications
+
+
+## Applications
+
 The project is comprised of the following apps.
 
-#### Evaluation API
+### Evaluation API
 Endpoint path: `/api`
+
 Config:
 - Serializers: `/eva/serializers.py`
 - Views (ex. Standard data sets): `/eva/views`
 - Standard data sets: `/eva/view_data.py` 
 
-#### Content Management Portal
+### Content Management Portal
 Endpoint path: `/admin`
 
 Config path: `/eva/admin.py`
 
 Documents: [The Django admin site](https://docs.djangoproject.com/en/3.0/ref/contrib/admin/)
 
-### API Reference
-Please go to [API Reference at wiki](https://github.com/aqutor/CE_Backend/wiki/API-Document).
+
+
+
+## API Reference
+[API Reference at wiki](https://github.com/aqutor/CE_Backend/wiki/API-Document).
+
 
 
 
@@ -77,7 +85,8 @@ Please use *issues* on Github.com properly. To resolve every issue, you should i
 
 
 
-##License
+
+## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
