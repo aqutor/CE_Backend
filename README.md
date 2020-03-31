@@ -72,7 +72,7 @@ The project is comprised of the following apps.
 
 
 ## API Reference
-[API Reference at wiki](https://github.com/aqutor/CE_Backend/wiki/API-Document).
+[API Reference at wiki](https://github.com/aqutor/CE_Backend/wiki/API-Reference).
 
 
 
