@@ -28,9 +28,9 @@ Python >= 3.7
 
 **All dependencies should be pre-installed in running environment.**
 
-A highly version of the package will still work in theory, but it's not been tests.
+A higher version of the package will still work in theory, but it's not been tests.
 
-| Package                | Recommend Version |
+| Package                | Recommended Version |
 | ---------------------- | ------------------ |
 | Django                 | 3.0.3              |
 | django-admin           | 2.0.0              |
